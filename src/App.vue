@@ -216,7 +216,7 @@ export default {
               { title: "Git", img: "git.png" }
             ],
             title: "Skills",
-            description: "here is what i can contribute"
+            description: "Here is What I know"
           }
         },
         {
@@ -248,9 +248,9 @@ export default {
           title: "description",
           metadata: {
             pres_first:
-              "I'm a Full Stack Developer. Actually, I have an engineering degree in computer science. I love web development and every day he gained more experience doing what I like the most so that later I can solve problems in the most effective way.",
+              "My name is William Urbina, I am software engineer. Nowadays I am a full stack developer, actually I love web software development and I get experience making what I like every single day, moreover I like to find solutions in best precise and optimal ways for the web pages or web apps to have the best performance possible.",
             pres_second:
-              "I always liked to get into projects using the skills that I did not have or because that inspires me to continue learning and strengthen myself professionally, This allowed me to learn to be autonomous and to learn on my own, I really like to learn and solve the needs of any requirement.",
+              "I have always liked to be part in projects which ask for skill that I do not have because it makes me learn new technologies to put into practice in other projects and innovate with all the solutions I have gotten",
             pres_title: "Who am I ?",
             description: "Hope to know you after",
             title: "About Me"
@@ -282,7 +282,7 @@ export default {
                 year: "06.2013 - 06.2019",
                 title: "Engineering In Computer Science",
                 place: "Universidad Don Bosco",
-                content: "Specialized in Networking and Server Administrator"
+                content: "Specialized in Web Development"
               }
             ]
           }
