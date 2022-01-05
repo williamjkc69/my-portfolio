@@ -40,7 +40,7 @@ export default {
         name: "William Urbina",
         status: "Full Stack Developer",
         email: "williamjkc69@gmail.com",
-        phone: "+503 6116 8813",
+        // phone: "+503 6116 8813",
         city: "Cuscatlán, El Salvador",
         lang: "Spanish, English",
         photo: "my-photo.png"
@@ -51,6 +51,70 @@ export default {
           title: "projects",
           metadata: {
             items: [
+              {
+                title: "tPromise (WIP)",
+                content: `App to staking pool with tPromise crypto
+                <br> <b>Tech:</b> React, Web3, Tailwind`,
+                image: "promise.png",
+                tag: "NTF webapp",
+                color: "blue"
+                // date: "2021-05-15"
+              },
+              {
+                title: "Vue Dropdown (WIP)",
+                content: `Vue package that implements a beautiful dropdown with multiple options and very customize
+                <br> <b>Tech:</b> Vue, SCSS
+                <br><br>Link : <a target='_blank' href='https://www.npmjs.com/package/vue-dropdown-multiselect'>Visit Site</a>`,
+                link: "https://www.npmjs.com/package/vue-dropdown-multiselect",
+                image: "dropdown.gif",
+                tag: "package",
+                color: "red"
+                // date: "2021-05-15"
+              },
+              {
+                title: "JustYours (WIP)",
+                content: `JustYours exclusive adult content creator platform 
+                  <br> <b>Tech:</b> Vue, Vuex, Nuxt, Web3, Tailwind, Laravel, MongoDB, PusherJs
+                  <br><br>Link : <a target='_blank' href='https://justyours.me/'>Visit Site</a>`,
+                link: "https://justyours.me/",
+                image: "jy.png",
+                tag: "NTF webapp",
+                color: "purple"
+                // date: "2021-05-15"
+              },
+              {
+                title: "Symple",
+                content: `Symple manages your certifications for single or multiple properties nationwide 
+                  <br> <b>Tech:</b> Vue, Vuex, Bootstrap, Laravel, MySQL, PusherJs, InertiaJs, Stripe
+                  <br><br>Link : <a <a target='_blank' href='https://symple.co.uk/'>Visit Site</a>`,
+                link: "https://symple.co.uk/",
+                image: "symple.png",
+                tag: "website",
+                color: "purple",
+                date: "2021-05-15"
+              },
+              {
+                title: "SCF Music",
+                content: `Webapp to create events and concerts. It's and API too for mobile app showing all events
+                  <br> <b>Tech:</b> Laravel Nova, Laravel, Bootstrap, MySQL
+                  <br><br>Link : <a <a target='_blank' href='http://music.forwardforce.io'>Visit Site</a>`,
+                link: "http://music.forwardforce.io",
+                image: "scf.png",
+                tag: "webapp",
+                color: "green",
+                date: "2020-03-1"
+              },
+              {
+                title: "Miracle",
+                content: `Informative Website
+                  <br> <b>Tech:</b> WordPress, Elementor, Custom Plugins
+                  <br><br>Link : <a <a target='_blank' href='https://www.miracle.co.il/'>Visit Site</a>`,
+                link: "https://www.miracle.co.il/",
+                image: "miracle.png",
+                tag: "website",
+                color: "pink",
+                date: "2020-07-1"
+              },
               {
                 title: "react store",
                 content:
@@ -104,87 +168,16 @@ export default {
               {
                 title: "Weather App",
                 content:
-                  "Node script for get Weather from any City <br><br>Link : <a href='https://github.com/williamjkc69/node-app-wheater'>https://github.com/williamjkc69/node-app-wheater</a>",
+                  "NodeJs script for get Weather from any City <br><br>Link : <a href='https://github.com/williamjkc69/node-app-wheater'>https://github.com/williamjkc69/node-app-wheater</a>",
                 link: "https://github.com/williamjkc69/node-app-wheater",
                 // image: "ig.gif",
                 tag: "Software",
                 color: "red",
-                date: "2017-01-02"
+                date: "2019-01-02"
               }
-              // {
-              //   title: "IG_Automation_Bot (Work in progress)",
-              //   content:
-              //     "Python script for Instagram automation using Instaloader. Used for auto following and DM. Easily configurable through Yaml config files!<br><br>Link : <a href='https://github.com/hbollon/IG_Automation_Bot'>https://github.com/hbollon/IG_Automation_Bot</a>",
-              //   link: "https://github.com/hbollon/IG_Automation_Bot",
-              //   image: "ig.gif",
-              //   tag: "Software",
-              //   color: "red",
-              //   date: "2020-11-02"
-              // },
-              // {
-              //   title: "Amazon Web Servicesdlib",
-              //   content:
-              //     "Golang string comparison and edit distance algorithms library, featuring : Levenshtein, LCS, Hamming, Damerau levenshtein (OSA and Adjacent transpositions algorithms), Jaro-Winkler, Cosine, etc.<br><br>Link : <a href='https://github.com/hbollon/go-edlib'>https://github.com/hbollon/go-edlib</a>",
-              //   link: "https://github.com/hbollon/go-edlib",
-              //   image: "edlib.jpg",
-              //   tag: "Library",
-              //   color: "blue",
-              //   date: "2020-08-25"
-              // },
-              // {
-              //   title: "Gyro'Ball",
-              //   content:
-              //     "3D labyrinth game project for Android using Unity. Use device gyroscope.<br><br>Link : <a href='https://play.google.com/store/apps/details?id=com.BitsPlease.GyroBall&hl=fr&fbclid=IwAR0itwUAcbpAl3TgkFGiSrQz_CHTRpWjSXTQZqNGPESikdOJWZ6DIrk5qAA'>Google Play</a>",
-              //   link:
-              //     "https://play.google.com/store/apps/details?id=com.BitsPlease.GyroBall&hl=fr&fbclid=IwAR0itwUAcbpAl3TgkFGiSrQz_CHTRpWjSXTQZqNGPESikdOJWZ6DIrk5qAA",
-              //   image: "gyroball.jpg",
-              //   tag: "Video Game",
-              //   color: "purple",
-              //   date: "2020-07-28"
-              // },
-              // {
-              //   title: "GyroscopeControl",
-              //   content:
-              //     "Unity script used for smooth and customizable object rotation with gyroscope. It include initial calibration with offset, rotation speed, smoothing parameter editable in Unity inspector and debug overlay.<br><br>Link : <a href='https://github.com/hbollon/GyroscopeControl'>https://github.com/hbollon/GyroscopeControl</a>",
-              //   link: "https://github.com/hbollon/GyroscopeControl",
-              //   image: "",
-              //   tag: "Script",
-              //   color: "green",
-              //   date: "2020-06-17"
-              // },
-              // {
-              //   title: "Urbalog",
-              //   content:
-              //     "Android adaptation of board game using Nearby Connections API and Java for the LAET<br><br>Link : <a href='https://github.com/hbollon/Urbalog'>https://github.com/hbollon/Urbalog</a>",
-              //   link: "https://github.com/hbollon/Urbalog",
-              //   image: "urba.jpg",
-              //   tag: "Video Game",
-              //   color: "purple",
-              //   date: "2020-05-19"
-              // },
-              // {
-              //   title: "android-sqlite-toolbox",
-              //   content:
-              //     "Android java package designed to manage any sqlite database. Includes creation of the db and interactions with it (CRUD), import and export in several file formats (easily adaptable to any other format) and synchronization in http.<br><br>Link : <a href='https://github.com/hbollon/android-sqlite-toolbox'>https://github.com/hbollon/android-sqlite-toolbox</a>",
-              //   link: "https://github.com/hbollon/android-sqlite-toolbox",
-              //   image: "",
-              //   tag: "Library",
-              //   color: "blue",
-              //   date: "2020-05-08"
-              // },
-              // {
-              //   title: "Le-Parrainage-Boursorama",
-              //   content:
-              //     "Website built with Laravel. Used to promote and manage sponsorships for a online bank. Hosted on personnal vps.<br><br>Link : <a href='https://le-parrainage-boursorama.fr'>https://le-parrainage-boursorama.fr</a>",
-              //   link: "https://le-parrainage-boursorama.fr",
-              //   image: "boursoweb.jpg",
-              //   tag: "Website",
-              //   color: "orange",
-              //   date: "2019-09-15"
-              // }
             ],
             title: "My projects",
-            description: "This is my story"
+            description: "I share my Background"
           }
         },
         {
@@ -209,6 +202,7 @@ export default {
               { title: "Amazon Web Services", img: "aws.png" },
               { title: "JQuery", img: "jquery.png" },
               { title: "Bootstrap", img: "bootstrap.png" },
+              { title: "Tailwind", img: "tailwind.png" },
               { title: "WordPress", img: "wordpress.png" },
               { title: "Stripe", img: "stripe.png" },
               { title: "Apache", img: "apache.png" },
