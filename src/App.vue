@@ -52,13 +52,32 @@ export default {
           metadata: {
             items: [
               {
-                title: "tPromise (WIP)",
+                title: "tPromise migration (WIP)",
+                content: `App to exchange tPromise crypto V1 to V2
+                <br> <b>Tech:</b> React, NextJs, Web3, Tailwind`,
+                image: "promise_migration.png",
+                tag: "Web3 App",
+                color: "green"
+                // date: "2021-01-21",
+              },
+              {
+                title: "RentVault",
+                content: `House rentals, app implements Stripe payments with one pay or recurring payment
+                <br> <b>Tech:</b> Laravel, JQuery, Stripe`,
+
+                image: "rent.png",
+                tag: "website",
+                color: "black",
+                date: "2021-01-21"
+              },
+              {
+                title: "tPromise",
                 content: `App to staking pool with tPromise crypto
-                <br> <b>Tech:</b> React, Web3, Tailwind`,
+                <br> <b>Tech:</b> React, NextJs, Web3, Tailwind`,
                 image: "promise.png",
                 tag: "NTF webapp",
-                color: "blue"
-                // date: "2021-05-15"
+                color: "blue",
+                date: "2021-01-3"
               },
               {
                 title: "Vue Dropdown (WIP)",
@@ -72,15 +91,15 @@ export default {
                 // date: "2021-05-15"
               },
               {
-                title: "JustYours (WIP)",
+                title: "JustYours",
                 content: `JustYours exclusive adult content creator platform 
                   <br> <b>Tech:</b> Vue, Vuex, Nuxt, Web3, Tailwind, Laravel, MongoDB, PusherJs
                   <br><br>Link : <a target='_blank' href='https://justyours.me/'>Visit Site</a>`,
                 link: "https://justyours.me/",
                 image: "jy.png",
                 tag: "NTF webapp",
-                color: "purple"
-                // date: "2021-05-15"
+                color: "purple",
+                date: "2022-01-27"
               },
               {
                 title: "Symple",
@@ -90,7 +109,7 @@ export default {
                 link: "https://symple.co.uk/",
                 image: "symple.png",
                 tag: "website",
-                color: "purple",
+                color: "red",
                 date: "2021-05-15"
               },
               {
@@ -114,56 +133,6 @@ export default {
                 tag: "website",
                 color: "pink",
                 date: "2020-07-1"
-              },
-              {
-                title: "react store",
-                content:
-                  "Package to create dynamic tables in Vue <br><br>Link : <a href='https://github.com/williamjkc69/react-store'>https://github.com/williamjkc69/react-store</a>",
-                link: "https://github.com/williamjkc69/react-store",
-                // image: "ig.gif",
-                tag: "webpage",
-                color: "purple",
-                date: "2020-04-01"
-              },
-              {
-                title: "v-datatable",
-                content:
-                  "Package to create dynamic tables in Vue <br><br>Link : <a href='https://github.com/williamjkc69/v-datatable'>https://github.com/williamjkc69/v-datatable</a>",
-                link: "https://github.com/williamjkc69/v-datatable",
-                // image: "ig.gif",
-                tag: "library",
-                color: "green",
-                date: "2020-01-01"
-              },
-              {
-                title: "TODO ionic-firebase",
-                content:
-                  "App created with Ionic and Firebase, include a Login with authentication and a CRUD with Firebase as database. <br><br>Link : <a href='https://github.com/williamjkc69/ionic-firebase-crud'>https://github.com/williamjkc69/ionic-firebase-crud</a>",
-                link: "https://github.com/williamjkc69/ionic-firebase-crud",
-                // image: "ig.gif",
-                tag: "Mobile App",
-                color: "blue",
-                date: "2020-01-01"
-              },
-              {
-                title: "Docker configured to Laravel Environment",
-                content:
-                  "Configuration to run Laravel 8 env on docker and nginx server <br><br>Link : <a href='https://github.com/williamjkc69/laravel-docker'>https://github.com/williamjkc69/laravel-docker</a>",
-                link: "https://github.com/williamjkc69/laravel-docker",
-                // image: "ig.gif",
-                tag: "library",
-                color: "green",
-                date: "2019-12-30"
-              },
-              {
-                title: "React Calculator",
-                content:
-                  "Basic calculator build in React Native <br><br>Link : <a href='https://github.com/williamjkc69/calculator-react-native'>https://github.com/williamjkc69/calculator-react-native</a>",
-                link: "https://github.com/williamjkc69/calculator-react-native",
-                // image: "ig.gif",
-                tag: "Mobile App",
-                color: "blue",
-                date: "2019-12-30"
               },
               {
                 title: "Weather App",
