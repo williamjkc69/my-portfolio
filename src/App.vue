@@ -52,13 +52,22 @@ export default {
           metadata: {
             items: [
               {
-                title: "tPromise migration (WIP)",
+                title: "tPromise casino game (wip)",
+                content: `Promise Smart Contract Casino, you can play in win tPromise tokens
+                <br> <b>Tech:</b> React, NextJs, Web3, Tailwind`,
+                image: "casino.png",
+                tag: "Web3 App",
+                color: "green",
+                // date: "2022-02-15",
+              },
+              {
+                title: "tPromise migration",
                 content: `App to exchange tPromise crypto V1 to V2
                 <br> <b>Tech:</b> React, NextJs, Web3, Tailwind`,
                 image: "promise_migration.png",
                 tag: "Web3 App",
-                color: "green"
-                // date: "2021-01-21",
+                color: "green",
+                date: "2022-02-15",
               },
               {
                 title: "RentVault",
@@ -68,7 +77,7 @@ export default {
                 image: "rent.png",
                 tag: "website",
                 color: "black",
-                date: "2021-01-21"
+                date: "2022-01-5"
               },
               {
                 title: "tPromise",
@@ -77,7 +86,7 @@ export default {
                 image: "promise.png",
                 tag: "NTF webapp",
                 color: "blue",
-                date: "2021-01-3"
+                date: "2021-12-15"
               },
               {
                 title: "Vue Dropdown (WIP)",
@@ -158,7 +167,7 @@ export default {
               { title: "NuxtJS", img: "nuxt.png" },
               { title: "Laravel", img: "laravel.png" },
               { title: "PHP", img: "php.png" },
-              { title: "Angular", img: "angular.png" },
+              // { title: "Angular", img: "angular.png" },
               { title: "React", img: "react.png" },
               { title: "Ionic", img: "ionic.png" },
               { title: "Linux", img: "linux.png" },
